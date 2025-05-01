@@ -11,15 +11,28 @@
         h2{
             text-align: center;
         }
-        th{
-            border-radius: 25px;
-            border-color:solid #000;
-            
-        }
-        td{
-            border-radius: 25px;
-           
-        }
+         .task1-table {
+        width: 60%;
+        margin: auto;
+        border-collapse: separate;
+        border-spacing: 5px;
+        font-family: Arial, sans-serif;
+        background-color: #b0e0e6; /* light cyan/blue */
+    }
+
+    .task1-table th,
+    .task1-table td {
+        border: 2px solid #000;
+        border-radius: 15px;
+        padding: 10px;
+        background-color: #b0e0e6;
+    }
+
+    .task1-table th {
+        font-weight: bold;
+        text-align: center;
+    }
+       
             .custom-table {
         width: 80%;
         margin: auto;
@@ -93,40 +106,34 @@
 <body>
     <h1>Task 1 CSS</h1>
 
-    <table class="table1 table-bordered table-hover table-info table-stripe ">
-
-        <thead>
-            <tr>
-                <th>First name</th>
-                <th>Last name</th>
-                <th>Age</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Jill</td>
-                <td>Smith</td>
-                <td>50</td>
-            </tr>
-        </tbody>
-        <tbody>
-            <tr>
-                <td>Eve</td>
-                <td>Jackson</td>
-                <td>94</td>
-            </tr>
-        </tbody>
-        <tbody>
-            <tr>
-                <td>Jhon</td>
-                <td>Doe</td>
-                <td>80</td>
-            </tr>
-        </tbody>
-    </table>
-    <br>
-    <hr>
-
+    
+<table class="task1-table">
+    <thead>
+        <tr>
+            <th>Firstname</th>
+            <th>Lastname</th>
+            <th>Age</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Jill</td>
+            <td>Smith</td>
+            <td>50</td>
+        </tr>
+        <tr>
+            <td>Eve</td>
+            <td>Jackson</td>
+            <td>94</td>
+        </tr>
+        <tr>
+            <td>John</td>
+            <td>Doe</td>
+            <td>80</td>
+        </tr>
+    </tbody>
+</table>
+    
    <h1>Task 2 of css</h1>
    
 <div class="nav-container1">
